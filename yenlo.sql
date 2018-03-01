@@ -27,7 +27,7 @@ VALUES (5, 'Laptop');
 -- Each location will have a different amount of stock available for the product
 
 DROP TABLE IF EXISTS stock;
-CREATE TABLE stock (productID INTEGER FOREIGN KEY, location TEXT, amount INTEGER)
+CREATE TABLE stock (productID INTEGER, location TEXT, amount INTEGER, FOREIGN KEY (productID) REFERENCES products(productID));
 
 -- The locations:
 -- Seattle
