@@ -71,3 +71,5 @@ INSERT INTO stock (productID, location, amount)
 VALUES (5, 'Austin', 30);
 
 --------------------------------------------------------
+
+-- TODO: Add the appropriate values for web as a location
