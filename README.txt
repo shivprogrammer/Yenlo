@@ -18,4 +18,4 @@ What we are looking for is an API that can handle the following interactions, pe
 - Get stock level (all or specific items)
 
 Optional:
-- Create a (simple) UI which shoes the stock levels of products and allows to update the stock level of a product.
+- Create a (simple) UI which shows the stock levels of products and allows to update the stock level of a product.

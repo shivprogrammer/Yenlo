@@ -33,6 +33,7 @@ CREATE TABLE stock (productID INTEGER, location TEXT, amount INTEGER, FOREIGN KE
 -- Seattle
 -- Boston
 -- Austin
+-- Online
 
 -- Seattle stock information
 INSERT INTO stock (productID, location, amount)
@@ -70,6 +71,17 @@ VALUES (4, 'Austin', 30);
 INSERT INTO stock (productID, location, amount)
 VALUES (5, 'Austin', 30);
 
+-- Online stock amount information
+INSERT INTO stock (productID, location, amount)
+VALUES (1, 'Online', 40);
+INSERT INTO stock (productID, location, amount)
+VALUES (2, 'Online', 40);
+INSERT INTO stock (productID, location, amount)
+VALUES (3, 'Online', 40);
+INSERT INTO stock (productID, location, amount)
+VALUES (4, 'Online', 40);
+INSERT INTO stock (productID, location, amount)
+VALUES (5, 'Online', 40);
 --------------------------------------------------------
 
 -- TODO: Add the appropriate values for web as a location
