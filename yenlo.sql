@@ -16,7 +16,7 @@ INSERT INTO products (productID, name, price)
 VALUES (2, 'Microphone to Sing like Bieber', 399.99);
 
 INSERT INTO products (productID, name, price)
-VALUES (3, '88-Key Weighted Digital Piano', 399.99);
+VALUES (3, 'Dave Chappelle Comedy Collection', 24.99);
 
 INSERT INTO products (productID, name, price)
 VALUES (4, 'Sweet Gaming Chair', 99.99);
