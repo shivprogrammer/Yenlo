@@ -16,13 +16,13 @@ INSERT INTO products (productID, name, price)
 VALUES (2, 'Microphone to Sing like Bieber', 399.99);
 
 INSERT INTO products (productID, name, price)
-VALUES (3, 'Piano');
+VALUES (3, '88-Key Weighted Digital Piano', 399.99);
 
 INSERT INTO products (productID, name, price)
-VALUES (4, 'Headphones');
+VALUES (4, 'Super Awesome Work Chair', 99.99);
 
 INSERT INTO products (productID, name, price)
-VALUES (5, 'Laptop');
+VALUES (5, 'Super Saiyan T-Shirt', 19.99);
 --------------------------------------------------------
 -- Each location will have a different amount of stock available for the product
 
