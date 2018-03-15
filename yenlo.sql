@@ -6,22 +6,22 @@ USE yenlo;
 --------------------------------------------------------
 -- Creation of the products table
 DROP TABLE IF EXISTS products;
-CREATE TABLE products (productID INTEGER PRIMARY KEY, name TEXT);
+CREATE TABLE products (productID INTEGER PRIMARY KEY, name TEXT, price MONEY);
 
 -- The products
-INSERT INTO products (productID, name)
+INSERT INTO products (productID, name, price)
 VALUES (1, 'Baden Elite Indoor Game Basketball');
 
-INSERT INTO products (productID, name)
+INSERT INTO products (productID, name, price)
 VALUES (2, 'Microphone');
 
-INSERT INTO products (productID, name)
+INSERT INTO products (productID, name, price)
 VALUES (3, 'Piano');
 
-INSERT INTO products (productID, name)
+INSERT INTO products (productID, name, price)
 VALUES (4, 'Book');
 
-INSERT INTO products (productID, name)
+INSERT INTO products (productID, name, price)
 VALUES (5, 'Laptop');
 --------------------------------------------------------
 -- Each location will have a different amount of stock available for the product
