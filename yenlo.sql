@@ -10,7 +10,7 @@ CREATE TABLE products (productID INTEGER PRIMARY KEY, name TEXT);
 
 -- The products
 INSERT INTO products (productID, name)
-VALUES (1, 'Basketball');
+VALUES (1, 'Baden Elite Indoor Game Basketball');
 
 INSERT INTO products (productID, name)
 VALUES (2, 'Microphone');
