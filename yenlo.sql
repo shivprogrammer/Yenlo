@@ -10,16 +10,16 @@ CREATE TABLE products (productID INTEGER PRIMARY KEY, name TEXT, price MONEY);
 
 -- The products
 INSERT INTO products (productID, name, price)
-VALUES (1, 'Baden Elite Indoor Game Basketball');
+VALUES (1, 'Elite Basketball', 49.99);
 
 INSERT INTO products (productID, name, price)
-VALUES (2, 'Microphone');
+VALUES (2, 'Microphone to Sing like Bieber', 399.99);
 
 INSERT INTO products (productID, name, price)
 VALUES (3, 'Piano');
 
 INSERT INTO products (productID, name, price)
-VALUES (4, 'Book');
+VALUES (4, 'Headphones');
 
 INSERT INTO products (productID, name, price)
 VALUES (5, 'Laptop');
@@ -83,5 +83,3 @@ VALUES (4, 'Online', 40);
 INSERT INTO stock (productID, location, amount)
 VALUES (5, 'Online', 40);
 --------------------------------------------------------
-
--- TODO: Add the appropriate values for web as a location
