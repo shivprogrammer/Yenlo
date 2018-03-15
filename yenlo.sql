@@ -10,7 +10,7 @@ CREATE TABLE products (productID INTEGER PRIMARY KEY, name TEXT, price MONEY);
 
 -- The products
 INSERT INTO products (productID, name, price)
-VALUES (1, 'Elite Basketball', 49.99);
+VALUES (1, 'Calming Water Painting', 49.99);
 
 INSERT INTO products (productID, name, price)
 VALUES (2, 'Microphone to Sing like Bieber', 399.99);
@@ -19,7 +19,7 @@ INSERT INTO products (productID, name, price)
 VALUES (3, '88-Key Weighted Digital Piano', 399.99);
 
 INSERT INTO products (productID, name, price)
-VALUES (4, 'Super Awesome Work Chair', 99.99);
+VALUES (4, 'Sweet Gaming Chair', 99.99);
 
 INSERT INTO products (productID, name, price)
 VALUES (5, 'Super Saiyan T-Shirt', 19.99);
