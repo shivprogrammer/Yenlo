@@ -6,7 +6,7 @@ USE yenlo;
 --------------------------------------------------------
 -- Creation of the products table
 DROP TABLE IF EXISTS products;
-CREATE TABLE products (productID INTEGER PRIMARY KEY, name TEXT, price MONEY);
+CREATE TABLE products (productID INTEGER PRIMARY KEY, name TEXT, price DECIMAL(5, 2));
 
 -- The products
 INSERT INTO products (productID, name, price)
