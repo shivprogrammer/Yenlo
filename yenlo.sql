@@ -1,3 +1,5 @@
+--TODO Switch the primary key from the products table to the stock table
+
 -- To establish the database
 DROP DATABASE IF EXISTS yenlo;
 CREATE DATABASE yenlo;
