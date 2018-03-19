@@ -1,3 +1,5 @@
+-- POSSIBLE TODO: May need to seperate out each city into its own table, for security purposes.
+
 -- To establish the database
 DROP DATABASE IF EXISTS yenlo;
 CREATE DATABASE yenlo;
