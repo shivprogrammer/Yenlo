@@ -4,30 +4,30 @@ CREATE DATABASE yenlo;
 USE yenlo;
 
 --------------------------------------------------------
--- Creation of the products table
-DROP TABLE IF EXISTS products;
-CREATE TABLE products (productID INTEGER, name TEXT, price DECIMAL(5, 2), FOREIGN KEY (productID) REFERENCES yenloStock(productID));
+-- Creation of the yenloProducts table
+DROP TABLE IF EXISTS yenloProducts;
+CREATE TABLE yenloProducts (productID INTEGER, name TEXT, price DECIMAL(5, 2), FOREIGN KEY (productID) REFERENCES yenloStock(productID));
 
--- The yenloProducts
-INSERT INTO products (productID, name, price)
+-- The products
+INSERT INTO yenloProducts (productID, name, price)
 VALUES (1, 'Calming Water Painting', 49.99);
 
-INSERT INTO products (productID, name, price)
+INSERT INTO yenloProducts (productID, name, price)
 VALUES (2, 'Microphone to Sing like Bieber', 399.99);
 
-INSERT INTO products (productID, name, price)
+INSERT INTO yenloProducts (productID, name, price)
 VALUES (3, 'Dave Chappelle Comedy Collection', 24.99);
 
-INSERT INTO products (productID, name, price)
+INSERT INTO yenloProducts (productID, name, price)
 VALUES (4, 'Sweet Gaming Chair', 99.99);
 
-INSERT INTO products (productID, name, price)
+INSERT INTO yenloProducts (productID, name, price)
 VALUES (5, 'Super Saiyan T-Shirt', 19.99);
 --------------------------------------------------------
 -- Each location will have a different amount of stock available for the product
 
 DROP TABLE IF EXISTS yenloStock;
-CREATE TABLE yenloStock (productID INTEGER PRIMARY KEY, location TEXT, amount INTEGER;
+CREATE TABLE yenloStock (productID INTEGER PRIMARY KEY, location TEXT, amount INTEGER);
 
 -- The locations:
 -- Seattle
