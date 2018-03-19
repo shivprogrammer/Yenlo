@@ -25,8 +25,8 @@ VALUES (4, 'Sweet Gaming Chair', 99.99);
 
 INSERT INTO yenloProducts (productID, name, price)
 VALUES (5, 'Super Saiyan T-Shirt', 19.99);
---------------------------------------------------------
 
+--------------------------------------------------------
 -- Creating and establishing the amount of stock for various yenlo store locations
 DROP TABLE IF EXISTS yenloStock;
 
@@ -77,13 +77,13 @@ VALUES (2.5, 5, 'Boston', 20);
 
 -- Austin stock information
 INSERT INTO yenloStock (itemID, productID, location, amount)
-VALUES (1.1, 1, 'Austin', 30);
+VALUES (3.1, 1, 'Austin', 30);
 INSERT INTO yenloStock (itemID, productID, location, amount)
-VALUES (1.2, 2, 'Austin', 30);
+VALUES (3.2, 2, 'Austin', 30);
 INSERT INTO yenloStock (itemID, productID, location, amount)
-VALUES (1.3, 3, 'Austin', 30);
+VALUES (3.3, 3, 'Austin', 30);
 INSERT INTO yenloStock (itemID, productID, location, amount)
-VALUES (1.4, 4, 'Austin', 30);
+VALUES (3.4, 4, 'Austin', 30);
 INSERT INTO yenloStock (itemID, productID, location, amount)
-VALUES (1.5, 5, 'Austin', 30);
+VALUES (3.5, 5, 'Austin', 30);
 --------------------------------------------------------
