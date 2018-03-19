@@ -1,5 +1,3 @@
---TODO Switch the primary key from the products table to the stock table
-
 -- To establish the database
 DROP DATABASE IF EXISTS yenlo;
 CREATE DATABASE yenlo;
@@ -8,7 +6,7 @@ USE yenlo;
 --------------------------------------------------------
 -- Creation of the products table
 DROP TABLE IF EXISTS products;
-CREATE TABLE products (productID INTEGER PRIMARY KEY, name TEXT, price DECIMAL(5, 2));
+CREATE TABLE products (productID INTEGER, name TEXT, price DECIMAL(5, 2), FOREIGN KEY (productID) REFERENCES stock(productID));
 
 -- The products
 INSERT INTO products (productID, name, price)
@@ -29,7 +27,7 @@ VALUES (5, 'Super Saiyan T-Shirt', 19.99);
 -- Each location will have a different amount of stock available for the product
 
 DROP TABLE IF EXISTS stock;
-CREATE TABLE stock (productID INTEGER, location TEXT, amount INTEGER, FOREIGN KEY (productID) REFERENCES products(productID));
+CREATE TABLE stock (productID INTEGER PRIMARY KEY, location TEXT, amount INTEGER;
 
 -- The locations:
 -- Seattle
