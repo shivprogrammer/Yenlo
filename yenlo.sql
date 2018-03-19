@@ -31,7 +31,7 @@ VALUES (5, 'Super Saiyan T-Shirt', 19.99);
 DROP TABLE IF EXISTS yenloStock;
 
 -- itemID is an unique ID that is combination of productID and an arbitrary numerical representation of location
-CREATE TABLE yenloStock (itemID DECIMAL(2, 2) PRIMARY KEY, productID INTEGER, location TEXT, amount INTEGER, FOREIGN KEY (productID) REFERENCES yenloProducts(productID));
+CREATE TABLE yenloStock (itemID DECIMAL(2, 1) PRIMARY KEY, productID INTEGER, location TEXT, amount INTEGER, FOREIGN KEY (productID) REFERENCES yenloProducts(productID));
 
 -- The locations:
 -- Online
