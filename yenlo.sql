@@ -1,4 +1,5 @@
 -- POSSIBLE TODO: May need to seperate out each city into its own table, for security purposes.
+-- POSSIBLE TODO: May have to add another product that is not used initially, but can be saved for use for the insert (POST) statements of the API
 
 -- To establish the database
 DROP DATABASE IF EXISTS yenlo;
